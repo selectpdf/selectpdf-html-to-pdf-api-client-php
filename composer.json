@@ -2,7 +2,7 @@
     "name": "selectpdf/selectpdf",
     "type": "library",
     "version": "2.0.0",
-    "description": "PHP Client library for the SelectPdf REST API. It lets you convert HTML to PDF",
+    "description": "PHP Client library for the SelectPdf HTML to PDF REST API.",
     "keywords": ["html", "pdf", "html to pdf", "web service", "api", "client", "convert", "converter", "web page"],
     "homepage": "https://selectpdf.com/html-to-pdf-api/",
     "license": "MIT",
