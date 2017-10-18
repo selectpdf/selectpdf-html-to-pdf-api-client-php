@@ -31,26 +31,26 @@ try
     // create a SelectPdf API client instance
     $client = new SelectPdf("Your API key here");
 
-	/*
-	// get the number of conversions available in the current month
-	$conv = $client->availableConversions();
-	echo("Available conversions: $conv");
-	exit();
-	*/
+    /*
+    // get the number of conversions available in the current month
+    $conv = $client->availableConversions();
+    echo("Available conversions: $conv");
+    exit();
+    */
 
-	/*
-	// get service usage details
-	$usage = $client->usageDetails(true);
-	echo("<pre>");
-	var_dump($usage);
-	echo("</pre>");
-	exit();
-	*/
+    /*
+    // get service usage details
+    $usage = $client->usageDetails(true);
+    echo("<pre>");
+    var_dump($usage);
+    echo("</pre>");
+    exit();
+    */
 
-	// set some conversion parameters
-	$client->setPageSize("A4");
-	$client->setPageOrientation("Portrait");
-	$client->setAllMargins(10);
+    // set some conversion parameters
+    $client->setPageSize("A4");
+    $client->setPageOrientation("Portrait");
+    $client->setAllMargins(10);
 
     // convert a web page and store the generated PDF into a $pdf variable
     $pdf = $client->convertUrl('https://selectpdf.com/');
