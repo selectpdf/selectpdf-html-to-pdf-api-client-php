@@ -9,8 +9,7 @@
     "authors": [
         {
             "name": "SelectPdf",
-            "email": "support@selectpdf.com",
-            "homepage": "https://selectpdf.com/html-to-pdf-api/"
+            "homepage": "https://selectpdf.com/"
         }
     ],
     "require": {
